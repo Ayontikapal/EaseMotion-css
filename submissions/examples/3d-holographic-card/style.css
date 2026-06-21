@@ -116,6 +116,20 @@
     );
 }
 
+.ease-holo-neon::before {
+    background: linear-gradient(
+        115deg,
+        transparent 0%,
+        transparent 25%,
+        rgba(255, 183, 50, 0.884) 30%,
+        rgba(255, 227, 44, 0.921) 35%,
+        rgba(189, 22, 255, 0.958) 40%,
+        transparent 45%,
+        transparent 100%
+        
+    )
+}
+
 .ease-holo-card.ease-holo-no-animation::before {
     animation: none;
     opacity: 0;
